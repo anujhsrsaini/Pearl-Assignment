@@ -1,12 +1,17 @@
-# Antigravity CLI Conversation Transcripts
+# Antigravity CLI Complete Conversation Transcripts
 
-This directory preserves complete, unedited transcripts and execution logs of all Antigravity CLI sessions conducted for this project, including the orchestrator lead agent and the 3 autonomous specialized subagents.
+This directory contains the **complete, unedited logs and transcripts for all 4 parallel terminal sessions** and their respective autonomous subagents that operated on this repository.
 
-## 📑 Transcripts Directory
+## 📑 Terminal Sessions & Agents Overview
 
-| Conversation / Agent | Role | Markdown Log | Raw JSONL Transcript |
-| :--- | :--- | :--- | :--- |
-| **Main Conversation (Lead Agent)** | Orchestrator & Lead Coding Agent | [`MAIN_CONVERSATION_LOG.md`](./MAIN_CONVERSATION_LOG.md) | [`main_conversation_transcript.jsonl`](./raw_transcripts/main_conversation_transcript.jsonl) |
-| **Subagent 1: Structure & Syntax Inspector** | CSV physical byte layout, RFC 4180 dialect, line breaks & parser limits | [`AGENT_1_STRUCTURE_INSPECTOR_LOG.md`](./AGENT_1_STRUCTURE_INSPECTOR_LOG.md) | [`agent_1_structure_inspector_transcript.jsonl`](./raw_transcripts/agent_1_structure_inspector_transcript.jsonl) |
-| **Subagent 2: Schema & Type Profiler** | Column typing, null taxonomy, statistical distributions, & category depth | [`AGENT_2_SCHEMA_PROFILER_LOG.md`](./AGENT_2_SCHEMA_PROFILER_LOG.md) | [`agent_2_schema_profiler_transcript.jsonl`](./raw_transcripts/agent_2_schema_profiler_transcript.jsonl) |
-| **Subagent 3: Data Quality & Anomaly Auditor** | Unicode hygiene, BiDi marks, HTML/CSS stripping, & seller redaction audit | [`AGENT_3_QUALITY_AUDITOR_LOG.md`](./AGENT_3_QUALITY_AUDITOR_LOG.md) | [`agent_3_quality_auditor_transcript.jsonl`](./raw_transcripts/agent_3_quality_auditor_transcript.jsonl) |
+| Terminal / Session | Conversation ID | Focus & Responsibilities | Readable Markdown Log | Raw JSONL Transcript |
+| :--- | :--- | :--- | :--- | :--- |
+| **Terminal 1 (Lead Orchestrator)** | `df4e5bd8...` | Orchestrates multi-agent triage, cleans CSV, expands category hierarchies, and produces final summary | [`TERMINAL_1_LEAD_ORCHESTRATOR.md`](./TERMINAL_1_LEAD_ORCHESTRATOR.md) | [`terminal_1_lead_orchestrator_transcript_full.jsonl`](./raw_transcripts/terminal_1_lead_orchestrator_transcript_full.jsonl) |
+| **Terminal 1 (Subagent)** | `46dc42c0...` | CSV byte layout, RFC 4180 compliance, newline row-split bug & buffer limit diagnostics | [`TERMINAL_1_SUBAGENT_STRUCTURE_INSPECTOR.md`](./TERMINAL_1_SUBAGENT_STRUCTURE_INSPECTOR.md) | [`terminal_1_subagent_structure_inspector_transcript_full.jsonl`](./raw_transcripts/terminal_1_subagent_structure_inspector_transcript_full.jsonl) |
+| **Terminal 1 (Subagent)** | `ea1333ba...` | 55-column typing, null taxonomy, statistical distributions, & category depth profile | [`TERMINAL_1_SUBAGENT_SCHEMA_PROFILER.md`](./TERMINAL_1_SUBAGENT_SCHEMA_PROFILER.md) | [`terminal_1_subagent_schema_profiler_transcript_full.jsonl`](./raw_transcripts/terminal_1_subagent_schema_profiler_transcript_full.jsonl) |
+| **Terminal 1 (Subagent)** | `cf6e0edd...` | Unicode hygiene, BiDi marks, HTML/CSS contamination, & seller redaction audit | [`TERMINAL_1_SUBAGENT_QUALITY_AUDITOR.md`](./TERMINAL_1_SUBAGENT_QUALITY_AUDITOR.md) | [`terminal_1_subagent_quality_auditor_transcript_full.jsonl`](./raw_transcripts/terminal_1_subagent_quality_auditor_transcript_full.jsonl) |
+| **Terminal 2 (Parallel Session)** | `9663425f...` | Analyzed timestamp date ranges (DATA_RANGE_REPORT.md) and investigated seller_name mask glyphs '█' (SELLER_ANALYSIS.md) | [`TERMINAL_2_DATA_RANGE_AND_SELLER_ANALYSIS.md`](./TERMINAL_2_DATA_RANGE_AND_SELLER_ANALYSIS.md) | [`terminal_2_data_range_and_seller_analysis_transcript_full.jsonl`](./raw_transcripts/terminal_2_data_range_and_seller_analysis_transcript_full.jsonl) |
+| **Terminal 3 (Parallel Session)** | `2cfc6b33...` | Audited initial_price nulls, scientific notation, and 87 identical price discount anomalies (PRICING_AND_DISCOUNT_VERIFICATION_REPORT.md) | [`TERMINAL_3_PRICING_AND_DISCOUNT_DEEP_DIVE.md`](./TERMINAL_3_PRICING_AND_DISCOUNT_DEEP_DIVE.md) | [`terminal_3_pricing_and_discount_deep_dive_transcript_full.jsonl`](./raw_transcripts/terminal_3_pricing_and_discount_deep_dive_transcript_full.jsonl) |
+| **Terminal 4 (Parallel Session)** | `df3e92dc...` | Orchestrated 2 subagents to analyze marketplace seller dominance (SELLER_MARKETPLACE_CONCENTRATION_REPORT.md) | [`TERMINAL_4_SELLER_CONCENTRATION_ORCHESTRATOR.md`](./TERMINAL_4_SELLER_CONCENTRATION_ORCHESTRATOR.md) | [`terminal_4_seller_concentration_orchestrator_transcript_full.jsonl`](./raw_transcripts/terminal_4_seller_concentration_orchestrator_transcript_full.jsonl) |
+| **Terminal 4 (Subagent)** | `555e5f9d...` | Analyzed category metrics and buybox concentration for Terminal 4 | [`TERMINAL_4_SUBAGENT_1.md`](./TERMINAL_4_SUBAGENT_1.md) | [`terminal_4_subagent_1_transcript_full.jsonl`](./raw_transcripts/terminal_4_subagent_1_transcript_full.jsonl) |
+| **Terminal 4 (Subagent)** | `e22b10c8...` | Analyzed 1P vs 3P seller market concentration metrics | [`TERMINAL_4_SUBAGENT_2.md`](./TERMINAL_4_SUBAGENT_2.md) | [`terminal_4_subagent_2_transcript_full.jsonl`](./raw_transcripts/terminal_4_subagent_2_transcript_full.jsonl) |
